@@ -17,7 +17,7 @@ export default function Home() {
 
       <div className={`wrapper ${isActive ? 'active' : ''}`}>
         <Image src="/images/img.png" alt="Decorative" width={400} height={400} className="decorative-image" />
-        <h2 className="text-right">Welcome to</h2> {/* Texte modifié ici */}
+        <h2 className="text-right">Welcome to</h2> {/* Texte modié ici */}
 
         {/* Login Form */}
         <div className={`form-wrapper login ${isActive ? 'hidden' : ''}`}>
